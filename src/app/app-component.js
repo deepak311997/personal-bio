@@ -12,6 +12,7 @@ export default function AppComponent() {
       <Header/>
       <hr className='divider'/>
       <Content/>
+      <hr className='divider'/>
       <Footer/>
     </>
   );
