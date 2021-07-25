@@ -26,7 +26,7 @@ export default function HeaderComponent() {
                     </div>
                 </div>
                 <div className="header-profile">
-                    <img src="img/deeps.jpg" className="header-profile-image" width="150px" height="150px"/>
+                    <img src="assets/img/deeps.jpg" className="header-profile-image" width="150px" height="150px"/>
                 </div>
             </div>
         </header>

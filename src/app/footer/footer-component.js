@@ -16,9 +16,9 @@ export default function FooterComponent() {
             <div className='footer-name'>IAMDEEPAK</div>
             <div className='footer-email'>deepak311997@gmail.com</div>
             <div className='footer-handlers'>
-                <SocialHandler href='https://www.linkedin.com/in/deepak-v-3519a2125/' src='img/linkedin.svg' />
-                <SocialHandler href='https://github.com/deepak311997' src='img/github.svg' />
-                <SocialHandler href='https://www.behance.net/jesstan' src='img/instagram.svg' />
+                <SocialHandler href='https://www.linkedin.com/in/deepak-v-3519a2125/' src='assets/img/linkedin.svg' />
+                <SocialHandler href='https://github.com/deepak311997' src='assets/img/github.svg' />
+                <SocialHandler href='https://www.behance.net/jesstan' src='assets/img/instagram.svg' />
             </div>
             <div className="footer-signature">
                 <div className="footer-signature__left">Made with</div>
