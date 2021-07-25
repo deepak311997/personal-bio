@@ -1,0 +1,68 @@
+.footer {
+    &-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-name {
+        font-family: 'LatoBlack';
+        font-size: 22px;
+        letter-spacing: 2px;
+        text-align: center;
+
+        &::after {
+            content: '';
+            border-bottom: 3px solid black;
+            width: 30px;
+            margin: 10px auto;
+            display: block;
+            opacity: 0.3;
+        }
+    }
+
+    &-email {
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        margin: 10px 0;
+    }
+
+    &-handlers {
+        display: flex;
+        align-items: center;
+
+        & > a {
+            margin: 5px;
+        } 
+    }
+
+    &-signature {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &__left {
+            text-align: right;
+        }
+
+        &__heart {
+            height: 20px;
+            width: 30px;
+            padding: 0 5px;
+            margin-top: 5px;
+            animation: 1.5s heartThrob infinite;
+
+            @keyframes heartThrob {
+                10% { transform: scale(1.15) }
+                20% { transform: scale(1) }
+                40% { transform: scale(1.15) }
+                60% { transform: scale(1) }
+            }
+        }
+
+        &__right {
+            text-align: left;
+        }
+    }
+}
