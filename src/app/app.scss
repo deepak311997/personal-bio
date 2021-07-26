@@ -26,6 +26,9 @@ a {
 
 #app-binder {
     padding: 50px 80px;
+    height: 100%;
+    width: 100%;
+    background-color: #d9f3ff;
 
     @media screen and (max-width: 480px) {
         padding: 50px 40px;
